@@ -16,7 +16,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: #0f0f0f;
 }
 
 /* TRANSITION */
@@ -48,7 +48,7 @@ nav {
 a {
   color: black;
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: rgb(27, 26, 26);
 }
 
 a:hover {
@@ -89,7 +89,7 @@ a:hover {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: black;
+  background-color: rgb(67, 93, 222);
   transition: all 0.3 ease-in-out;
 }
 
@@ -97,7 +97,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: rgb(14, 51, 173);
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -241,12 +241,12 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
+  background: rgb(77, 154, 217);
   color: white;
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: rgb(77, 154, 217);
 }
 
 .btn-color-2 {
@@ -296,9 +296,9 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: rgb(77, 154, 217);
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(7, 20, 161) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
@@ -360,8 +360,8 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  border-color: #1b1a1a;
+  background: rgb(77, 154, 217);
 }
 
 .project-img {
@@ -377,7 +377,7 @@ article .icon {
 
 .project-btn {
   color: black;
-  border-color: rgb(163, 163, 163);
+  border-color: rgb(15, 14, 14);
 }
 
 /* CONTACT */
@@ -395,7 +395,7 @@ article .icon {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  background: (250, 250, 250);
+  background: rgb(77, 154, 217);
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -430,3 +430,4 @@ footer {
 footer p {
   text-align: center;
 }
+
